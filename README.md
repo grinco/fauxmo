@@ -24,8 +24,9 @@ different ways.
 Copy the fauxmo.py file to your server and edit the FAUXMOS list for the device names
 you want and the URLs to invoke for on and off commands for each one. You can execute it
 simply as `./fauxmo.py`. If you want debug output, execute `./fauxmo.py -d`. If you
-want it to run for an extended period, you could do something like `nohup ./fauxmo.py &`
-or take extra steps to make it run at startup, etc.
+want to run it at system start-up copy the alexa.service script to /etc/systemd/system/
+fauxmo.py to /usr/local/bin/ and run `systemctl enable alexa` to enable service on boot-up, and `systemctl start alexa`
+to start it. Don't forget to chmod a+x /usr/local/bin/fauxmo.py to make it executable.
 
 **Note:** unless you specify port numbers in the creation of your fauxmo objetcs, your
 virtual switch devices will use a different port every time you run fauxmo.py, which will

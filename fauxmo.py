@@ -384,8 +384,10 @@ class rest_api_handler(object):
 # list will be used.
 
 FAUXMOS = [
-    ['office lights', rest_api_handler('http://192.168.5.4/ha-api?cmd=on&a=office', 'http://192.168.5.4/ha-api?cmd=off&a=office')],
-    ['kitchen lights', rest_api_handler('http://192.168.5.4/ha-api?cmd=on&a=kitchen', 'http://192.168.5.4/ha-api?cmd=off&a=kitchen')],
+    ['yellow lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C255%2C255%2C0','http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['red lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C255%2C0%2C0', 'http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['green lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C255%2C0', 'http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['blue lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C255', 'http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
 ]
 
 

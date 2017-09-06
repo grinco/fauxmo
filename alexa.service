@@ -1,0 +1,12 @@
+[Unit]
+Description=Fauxmo Belkin WeMo Emulator Service for Alexa
+After=network.target auditd.service
+
+[Service]
+ExecStart=/usr/local/bin/fauxmo.py
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
