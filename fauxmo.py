@@ -389,7 +389,7 @@ FAUXMOS = [
     ['green lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C255%2C0', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
     ['blue lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C255', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
     ['pink lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C255%2C20%2C147', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
-    ['white lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C255%2C244%2C229', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['white lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C255%2C197%2C143', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
 ]
 
 
