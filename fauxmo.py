@@ -384,10 +384,12 @@ class rest_api_handler(object):
 # list will be used.
 
 FAUXMOS = [
-    ['yellow lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C255%2C255%2C0','http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
-    ['red lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C255%2C0%2C0', 'http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
-    ['green lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C255%2C0', 'http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
-    ['blue lights', rest_api_handler('http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C255', 'http://192.168.0.74/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['yellow lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C255%2C255%2C0','http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['red lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C255%2C0%2C0', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['green lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C255%2C0', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['blue lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C255', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['pink lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C255%2C20%2C147', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
+    ['white lights', rest_api_handler('http://192.168.0.73/tools?cmd=NeoPixelAll%2C255%2C244%2C229', 'http://192.168.0.73/tools?cmd=NeoPixelAll%2C0%2C0%2C0')],
 ]
 
 
